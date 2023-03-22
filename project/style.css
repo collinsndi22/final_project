@@ -1,0 +1,242 @@
+body {
+	margin: 0px;
+	background-image: linear-gradient(120deg,grey,red);
+	background-size: 100% 100%;
+	height: 500px;
+	background-attachment: fixed;
+}
+.get_form {
+	margin-left: 30%;
+	margin-top: 2%;
+	overflow: auto;
+	height: 480px;
+	width: 30%;
+	display: flex;
+}
+.text_inputs {
+	padding: 10px;
+	width: 300px;
+	font-size: 20px;
+	border: 1px solid white;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 9px;
+}
+.text_area:focus {
+	border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.text_area {
+	width: 320px;
+	margin: auto;
+	height: 200px;
+	margin-left: 20px;
+	font-size: 20px;
+	border-radius: 9px;
+}
+
+.label {
+	font-size: 20px;
+	color: white;
+	margin-left: 15px;
+}
+.form input[type=submit] {
+	 color: white;
+}
+.form input[type=submit]:hover {
+	color: steelblue;
+	cursor: pointer;
+}
+.text_inputs:focus {
+	border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.submit {
+	margin-left: 32%;
+}
+.submit input[type=submit] {
+	cursor: pointer;
+}
+.submit input[type=submit]:hover {
+	color: steelblue;
+}
+.h1 {
+	margin-left: 20%;
+	color: white;
+}
+.first_con {
+	display: flex;
+	height: 620px;
+	background-color: white;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 3px;
+}
+.large_con {
+	width: 70%;
+	height:600px;
+	margin-top: 3px;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+.large_containing {
+	width: 100%;
+	height:610px;
+	margin-top: 3px;
+	display: flex;
+	flex-direction: row;
+}
+.left_con {
+	width: 370px;
+	height: 600px;
+	display: flex;
+	margin-left: 0px;
+	background-color: black;
+	margin-top: 3px;
+	border-radius: 20px;
+	flex-direction: column;
+}
+.image_con {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	margin-left: 0px;
+}
+.profile_img img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 10px solid goldenrod;
+
+}
+
+.name_and_title {
+	float: right;
+	margin-right: 20%;
+	margin-top: 40px;
+	height: 150px;
+	background-color:goldenrod;
+	width:1000px;
+	display: flex;
+	flex-direction: column;
+}
+.name_and_title h1 {
+	letter-spacing: 7px;
+	margin-left: 50px;
+	line-height: 0px;
+	margin-top: 50px;
+}
+.name_and_title p {
+	font-size: 20px;
+	letter-spacing: 7px;
+	margin-left: 90px;
+	line-height: 0px;
+}
+	.profile_img {
+		z-index: 1;
+		float: left;
+		margin-top: 10px;
+	}
+	.line_box {
+		width: 80%;
+		height: 90px;
+		background-color: goldenrod;
+		display: flex;
+		flex-direction: column;
+		margin: 0px;
+	}
+	.line_box h1 {
+		letter-spacing: 7px;
+		font-size: 30px;
+
+	}
+
+	.box_con {
+		display: flex;
+		flex-direction: row;
+	}
+	.date_con {
+		width: 300px;
+		height: 170px;
+		margin-top: 10px;
+	}
+	.date_con h1,p {
+		margin-left: 140px;
+	}
+	.degree_info {
+		width: 450px;
+		height: 170px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.degree_info p {
+		margin-left: 0px;
+	}
+	.box {
+		border: 1px solid goldenrod;
+		width: 280px;
+		margin-top: 30px;
+		margin-left: 20px;
+		height: 40px;
+		padding: 3px;
+	}
+	.box p {
+		color: white;
+		line-height: 0px;
+		margin-left: 20px;
+		font-size: 20px;
+	}
+	.contact_items h1 {
+		color: white;
+		margin-left: 27px;
+		font-size: 24px;
+	}
+	.contact_items p {
+		color: white;
+		margin-left: 30px;
+		font-size: 30px;
+		margin-top: 0px;
+		line-height: 0px;
+	}
+	.box1 {
+		border: 1px solid goldenrod;
+		width: 280px;
+		margin-top: 30px;
+		margin-left: 20px;
+		height: 40px;
+		padding: 3px;
+	}
+	.box1 p {
+		color: white;
+		line-height: 0px;
+		margin-left: 30px;
+		font-size: 20px;
+		margin-top: 18px;
+	}
+li {
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.links {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+}
+.link1 h1{
+	color: white;
+}
+label {
+	color:  white;
+}
+.form input[type=checkbox] {
+	margin-left: 100px;
+}
+#i {
+	color: yellow;
+}
